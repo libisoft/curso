@@ -29,6 +29,10 @@ dependencies {
 	//implementation group: 'org.postgresql', name: 'postgresql', version: '42.5.1'
 
 	runtimeOnly 'org.postgresql:postgresql'
+
+	implementation 'org.mapstruct:mapstruct:1.5.3.Final'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
+
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
